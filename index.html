@@ -4,10 +4,354 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Assignment 11</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Woofstrap</title>
     </head>
     <body>
-        <h1>I haven't completed assignment 10 but I am posting this anyway!</h1>
-        <h2>I will get it done in the alloted extension. Thank you.</h2>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Woofstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About pups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Howl it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pawducts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact pups</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Puppies are awesome
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Puppies</button></li>
+                            <li><button class="dropdown-item" type="button">are</button></li>
+                            <li><button class="dropdown-item" type="button">awesome</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Lightbox Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Insane Cuteness</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body align-items-center">
+                        <img src="https://www.thesprucepets.com/thmb/wpN_ZunUaRQAc_WRdAQRxeTbyoc=/4231x2820/filters:fill(auto,1)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg" width="400">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Send Cuddles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header section -->
+        <div class="container pt-5 pb-3">
+            <div class="row pb-3">
+                <div class="d-flex flex-column">
+                    <h3>Welcome to Woofstrap</h3>
+                    <p>Woofstrap is the first Boostrap websire entirely dedicated to cute puppies. This is how it looks like
+                        with
+                        Boostrap.</p>
+                    <p>Even better now that there is some more space.</p>
+                    <img src="https://www.thesprucepets.com/thmb/wpN_ZunUaRQAc_WRdAQRxeTbyoc=/4231x2820/filters:fill(auto,1)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg" width="400">
+                    
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Send Cuddles
+                </button>
+            </div>
+            
+        </div>
+
+        <!-- Meet the pAwengers -->
+        <div style="background-color: rgb(236, 236, 236);">
+            <div class="container pt-3 pb-5">
+                <div class="row">
+                    <div class="d-flex flex-column align-items-center pt-5">
+                        <h3>Meet the pAwengers!</h3>
+                        <p>Everthing's better in team</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHB1cHB5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" width="400">
+                            <h4>Super pup</h4>
+                            <p>An utterly cute dog</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHB1cHB5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" width="400">
+                            <h4>Iron Howl</h4>
+                            <p>Cuteness reloaded</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHB1cHB5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" width="400">
+                            <h4>Captain Pawmerica</h4>
+                            <p>Getting treats all the time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Mission -->
+        <div class="container p-5">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="https://i.pinimg.com/originals/39/3d/8a/393d8afb1a66971b534d1e5ce488d041.png" width="500">
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Our Mission</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Ornare lectus sit amet est placerat. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Ante in nibh mauris cursus mattis molestie a iaculis at. Sagittis orci a scelerisque purus semper. Habitant morbi tristique senectus et netus et malesuada. Phasellus egestas tellus rutrum tellus. Est ultricies integer quis auctor elit sed. Non diam phasellus vestibulum lorem sed risus ultricies. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Mauris ultrices eros in cursus turpis massa tincidunt dui. Tellus molestie nunc non blandit massa. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Egestas diam in arcu cursus euismod. Diam quis enim lobortis scelerisque fermentum. <b>Woof</b> sed euismod nisi porta. Augue mauris augue neque gravida in fermentum et.
+                    </p>
+                    <p>
+                        Cursus metus aliquam eleifend mi in. Magna sit amet purus gravida. Nisi lacus sed viverra tellus in hac habitasse platea. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Et ultrices neque ornare aenean. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Diam phasellus vestibulum lorem sed. Eu scelerisque felis imperdiet proin fermentum. <b>Woof</b> tempus egestas sed sed risus pretium quam vulputate dignissim. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Aliquam purus sit amet luctus venenatis. Turpis massa sed elementum tempus egestas sed sed. Nisl vel pretium lectus quam id leo in.
+                    </p>
+                    <h5 class="text-secondary">Are you convinced that we are the best thing in the world?</h5>
+                    <br />
+                    <div class="d-flex justify-content-start">
+                        <button type="button" class="btn btn-primary me-1">Yes</button>
+                        <button type="button" class="btn btn-outline-primary me-1">Of course!</button>
+                        <button type="button" class="btn btn-outline-secondary me-1">I already was</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- How we work -->
+        <div class="container p-5">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="row text-center">
+                        <h4>How we work</h4>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    We are playful most of the time
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Quis auctor elit sed vulputate mi sit amet. <b>Woof</b> sit amet consectetur adipiscing elit ut aliquam purus sit. Ultricies integer quis auctor elit sed vulputate mi. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Facilisi nullam vehicula ipsum a. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Dui id ornare arcu odio ut. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Non blandit massa enim nec. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Eu consequat ac felis donec. Viverra justo nec ultrices dui sapien eget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    We love treats
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Quis auctor elit sed vulputate mi sit amet. <b>Woof</b> sit amet consectetur adipiscing elit ut aliquam purus sit. Ultricies integer quis auctor elit sed vulputate mi. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Facilisi nullam vehicula ipsum a. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Dui id ornare arcu odio ut. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Non blandit massa enim nec. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Eu consequat ac felis donec. Viverra justo nec ultrices dui sapien eget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    We'd follow you everywhere
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Quis auctor elit sed vulputate mi sit amet. <b>Woof</b> sit amet consectetur adipiscing elit ut aliquam purus sit. Ultricies integer quis auctor elit sed vulputate mi. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Facilisi nullam vehicula ipsum a. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Dui id ornare arcu odio ut. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Non blandit massa enim nec. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Eu consequat ac felis donec. Viverra justo nec ultrices dui sapien eget.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-H0Vy-LPTnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our friends worldwide -->
+        <div style="background-color: rgb(236, 236, 236);">
+            <div class="container-fluid pt-5 pb-5">
+                <div class="row">
+                    <div class="d-flex flex-column align-items-center pt-5">
+                        <h3>Our friends worldwide</h3>
+                    </div>
+                </div>
+                <div class="row text-start align-items-start" style="padding-left: 10px;">
+                    <div class="col-2 p-2">
+                        <img src="https://thumbs.dreamstime.com/b/dog-hero-red-cloak-boots-metal-belt-raised-his-paw-white-background-isolated-158776411.jpg" height="250">
+                    </div>
+                    <div class="col-2 p-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYloVIXKW029ZuHz5VWG6air1R1CI6ayimg&usqp=CAU" height="250">
+                    </div>
+                    <div class="col-2 p-2">
+                        <img src="https://petcostumecenter.com/wp-content/uploads/2020/05/supergirl-dog-cape--scaled.jpg" height="250">
+                    </div>
+                    <div class="col-2 p-2">
+                        <img src="https://www.talltailsdog.com/pub/media/catalog/product/cache/a0f79b354624f8eb0e90cc12a21406d2/m/o/mobythegoldy_1__1.jpg" height="250">
+                    </div>
+                    <div class="col-2 p-2">
+                        <img src="https://www.rover.com/blog/wp-content/uploads/2021/09/51SG0frQoxL.SL500.jpg" height="250">
+                    </div>
+                    <div class="col-2 p-2">
+                        <img src="https://media-be.chewy.com/wp-content/uploads/2020/08/14172740/superhero-dog-costumes-thor-halloween-costume.jpg" height="250">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Executives -->
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <h4>Our exec team</h4>
+                    <p>They are the alphas of the gang.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <h4>Contact us</h4>
+                    <p>Have a treat? Want to play catch? We are looking forward to hearing from you.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="card mt-3" style="width: 50%;">
+                            <img src="https://www.pngitem.com/pimgs/m/552-5529467_superhero-cape-png-hd-super-hero-dog-png.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gerardine Bouquet Schone IV</h5>
+                                <p class="card-text">Cuddle Executive Officer</p>
+                                <a href="#" class="btn btn-primary">See Linkedln profile</a>
+                            </div>
+                        </div>
+                        <div class="card mt-3" style="width: 50%">
+                            <img src="https://www.rover.com/blog/wp-content/uploads/2021/09/41IEtN5tK7L.SL500.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bella</h5>
+                                <p class="card-text">VP of snuggles.</p>
+                                <a href="#" class="btn btn-primary">See Linkedln profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row text-center">
+                        <div class="col">
+                            <img src="https://www.rover.com/blog/wp-content/uploads/2019/09/Dalmatian-superhero-1.jpg" width="350">
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleEmail">
+                            <div class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleTextbox" class="form-label">Your Message</label>
+                            <br />
+                            <textarea name="message" class="form-control" id="userMessage" cols="30" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox1">
+                            <label class="form-check-label" for="exampleCheck1">Yes, I have treats</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer style="background-color: rgb(236, 236, 236); padding: 20px;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-3">
+                        <div class="row text-start">
+                            <h5>Pets</h5>
+                            <a href="#">Pets</a>
+                            <a href="#">are</a>
+                            <a href="#">the</a>
+                            <a href="#">best</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row text-start">
+                            <h5>are</h5>
+                            <a href="#">Pets</a>
+                            <a href="#">are</a>
+                            <a href="#">the</a>
+                            <a href="#">best</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row text-start">
+                            <h5>the</h5>
+                            <a href="#">Pets</a>
+                            <a href="#">are</a>
+                            <a href="#">the</a>
+                            <a href="#">best</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row text-start">
+                            <h5>best</h5>
+                            <a href="#">Pets</a>
+                            <a href="#">are</a>
+                            <a href="#">the</a>
+                            <a href="#">best</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     </body>
 </html>
